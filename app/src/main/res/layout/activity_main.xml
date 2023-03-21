@@ -7,7 +7,7 @@
     tools:context=".activity.MainActivity">
 
     <TextView
-        android:id="@+id/textViewLogo"
+        android:id="@+id/text_view_logo"
         android:layout_width="@dimen/text_view_layout_width"
         android:layout_height="@dimen/text_view_layout_height"
         android:text="@string/text_view_title"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/etUser"
+        android:id="@+id/edit_text_user"
         android:layout_width="@dimen/edit_text_layout_width"
         android:layout_marginStart="@dimen/activity_vertical_margin"
         android:layout_marginEnd="@dimen/activity_vertical_margin"
@@ -32,18 +32,18 @@
         app:layout_constraintVertical_bias="0.25"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewLogo"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_logo"
         app:layout_constraintBottom_toBottomOf="parent" />
 
     <Button
-        android:id="@+id/toastButton"
+        android:id="@+id/toast_button"
         android:layout_width="@dimen/button_layout_width"
         android:layout_marginStart="@dimen/activity_vertical_margin"
         android:layout_marginEnd="@dimen/activity_vertical_margin"
         android:layout_height="wrap_content"
         android:text="@string/button_name"
         app:layout_constraintVertical_bias="0.2"
-        app:layout_constraintTop_toBottomOf="@+id/etUser"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_user"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
